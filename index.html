@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Groceries on da GO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Indigo Grocery Company</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <h1>Groceries on da GO</h1>
+    <h1>Indigo Grocery Company</h1>
     <h2>Life can keep you busy.</h2>
-    <h3>By using 'Groceries on da GO,' you will never forget another item ever again! </h3>
-    <div id = "groceryList"></div>
-    <div id = "totals">
-        <p></p>
-            <span id = "totalCost"></span>
-        <p></p>
-            <span id = "totalQuantity"></span>
+    <h3>With Indigo Groceries, you can get groceries on the GO so you will never forget another item ever again! </h3>
+    <div id="groceryList"></div>
+    <div id="totals">
+      <p></p>
+      <span id="totalCost"> </span>
+      <p></p>
+      <span id="totalQuantity"></span>
     </div>
-    <button onclick = "addItemPrompt"()>Add Item</button>
-    <button onclick = "isolateCategory('Fruits')"()>Fruits</button>
-    <button onclick = "isolateCategory('Vegetables')"()>Vegetables</button>
-    <button onclick = "isolateCategory('Dairy')"()>Dairy</button>
-    <button onclick = "showAllCategories()"()>All Categories</button>
-    <button onclick = "orderItemsByCost()"()>Order by Item Cost</button>
+    <button onclick="addItemPrompt()">Add Item</button>
+    <button onclick="isolateCategory('Fruits')" ()>Fruits</button>
+    <button onclick="isolateCategory('Vegetables')" ()>Vegetables</button>
+    <button onclick="isolateCategory('Dairy')" ()>Dairy</button>
+    <button onclick="showAllCategories()" ()>All Categories</button>
+    <button onclick="orderItemsByCost()" ()>Order by Item Cost</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
